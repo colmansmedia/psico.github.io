@@ -58,15 +58,15 @@ a {
 h1, h2 { margin: 0; }
 
 h1 {
-	font-size: 80px;
-	font-weight: 800;
-	line-height: 80px;
+	font-size: 16px;
+	font-weight: 200;
+	line-height: normal;
 	letter-spacing: -0.08em;
-	color: #161a1b; 
+	color: #161a1b;
 }
 
 h2 {
-	font-size: 18px;
+	font-size: 36px;
 	font-weight: 800;
 	line-height: 1em;
 	letter-spacing: 0.2em;
@@ -169,11 +169,13 @@ h2 {
 
 .line {
 	display: block;
-	margin: 0 auto;
-	width: 60px;
+	width: 25%;
 	height: 1px;
 	background: #00d9ec;
 	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
 }
 
 .contact {
@@ -484,8 +486,15 @@ h2 {
 /* Tablet Portrait */
 @media all and (min-width: 700px) {
 	/* HERO */
-	h1 { font-size: 90px; line-height: 90px; }
-	.sub-title { font-size: 20px; line-height: 20px; margin-top: 10px; }
+	h1 {
+	font-size: 24px;
+	line-height: 80px;
+}
+	.sub-title {
+	font-size: 24px;
+	line-height: 20px;
+	margin-top: 10px;
+}
 	/* TITLE & CONTACT */
 	.title { top: 18%;}
 	.line { margin-top: 20px; }
